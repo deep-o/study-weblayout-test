@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+  <title>Personal</title>
+</head>
+<body>
+  <div class="popup-container">
+    <form action="#" class="popup">
+      <input type="text" name="name" id="name" class="form-control" placeholder="Имя">
+      <input type="text" name="email" id="email" class="form-control" placeholder="Email">
+      <input type="submit" value="Отправить" class="btn dark-btn form-btn">
+    </form>
+  </div>
+  <div class="container">
+    <header class="header section">
+      <nav class="nav">
+        <ul class="list-reset nav__list">
+          <li class="nav__item">
+            <a class="link nav__link" href="#">Услуги</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="link nav__link" href="#">Портфолио</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="link nav__link" href="#">Стоимость</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="contacts">
+        <span class="contacts__item contacts__phone">+7 (909) 999-55-44</span>
+        <button class="btn btn-reset light-btn open-popup header-btn">Заказать звонок</button>
+      </div>
+    </header>
+  
+    <section class="section about">
+      <h1 class="title about__title">Дмитрий Алексеев</h1>
+      <p class="text about__text">Frontend-разработчик и веб-верстальщик</p>
+      <button class="btn btn-reset dark-btn open-popup">Узнать больше</button>
+    </section>
+  
+    <section class="section service">
+      <h2 class="title service__title">Что я делаю</h2>
+      <ul class="service__list list-reset">
+        <li class="service__item">
+          <img src="img/1.png" class="service__img" alt="1">
+          <p class="text service__descr">Вёрстка лэндинг-страниц и сайтов люой сложности</p>
+        </li>
+
+        <li class="service__item">
+          <img src="img/2.png" class="service__img" alt="2">
+          <p class="text service__descr">Адаптивная вёрстка под все браузеры и устройства</p>
+        </li>
+        <li class="service__item">
+          <img src="img/3.png" class="service__img" alt="3">
+          <p class="text service__descr">Frontend-разработка и программирование</p>
+        </li>
+        <li class="service__item">
+          <img src="img/4.png" class="service__img" alt="4">
+          <p class="text service__descr">Исправление и доработка существующей вёрстки</p>
+        </li>
+      </ul>
+
+      <button class="btn btn-reset light-btn open-popup service-btn">Узнать стоимость</button>
+    </section>
+  
+    <section class="section works">
+      <h2 class="title works__title">Примеры работ</h2>
+
+      <ul class="list-reset works__list">
+        <li class="works__item">
+          <img src="img/e1.png" alt="work1" class="works__img">
+        </li>
+        <li class="works__item">
+          <img src="img/e2.png" alt="work2" class="works__img">
+        </li>
+        <li class="works__item">
+          <img src="img/e2.png" alt="work3" class="works__img">
+        </li>
+      </ul>
+
+      <button class="btn btn-reset light-btn open-popup works-btn">Заказать проект</button>
+
+    </section>
+  
+  </div>
+  
+    <section class="section conditions">
+      <div class="container">
+        <div class="conditions__info">
+          <h2 class="title visually-hidden">Цены</h2>
+          <p class="text conditions__text">Адаптивная вёрстка под все устройства и браузеры</p>
+          <p class="text conditions__text conditions__text--last">от 1000 р. всего за 4 часа.*</p>
+          <p class="text">
+            * Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально, в зависимости от сложности задач
+          </p>
+        </div>
+      </div>
+    </section>
+  
+    <footer class="footer container">
+      <ul class="list-reset footer-menu">
+        <li class="footer-menu__item">
+          <a class="link footer-menu__link" href="#">Услуги</a>
+        </li>
+        <li class="footer-menu__item">
+          <a class="link footer-menu__link" href="#">Портфолио</a>
+        </li>
+        <li class="footer-menu__item">
+          <a class="link footer-menu__link" href="#">Стоимость</a>
+        </li>
+      </ul>
+
+      <div class="footer-contacts">
+        <span class="contacts__item footer-contacts__item">dmitry@alekseev.com</span>
+        <span class="contacts__item footer-contacts__item">+7 (909) 999-55-44</span>
+      </div>
+
+      <div class="footer-links">
+        <button class="btn btn-reset light-btn open-popup footer-btn">Заказать звонок</button>
+
+        <ul class="list-reset footer-links__list">
+          <li class="footer-links__item">
+            <a href="#" class="footer-links__link footer-links__link--fb"></a>
+          </li>
+          <li class="footer-links__item">
+            <a href="#" class="footer-links__link footer-links__link--vk"></a>
+          </li>
+          <li class="footer-links__item">
+            <a href="#" class="footer-links__link footer-links__link--youtube"></a>
+          </li>
+          <li class="footer-links__item">
+            <a href="#" class="footer-links__link footer-links__link--tg"></a>
+          </li>
+          <li class="footer-links__item">
+            <a href="#" class="footer-links__link footer-links__link--insta"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    
+</body>
+</html>
